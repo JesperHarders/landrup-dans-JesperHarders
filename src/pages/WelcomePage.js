@@ -14,7 +14,7 @@ const WelcomePage = () => {
             </div>
             <motion.div initial={{y: 500}} animate={{y: 0}} transition={{duration: 1.5}} className='w-[200px] h-[50px] bg-purple absolute bottom-[50px] left-[25%] rounded-[10px]'>
                 <Link to='/aktiviter'>
-                    <p className='text-center leading-[50px] text-white'>Kom i gang</p>
+                    <p className='text-center leading-[50px] text-white font-ubuntu'>Kom i gang</p>
                 </Link>
             </motion.div>
         </div>

@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       'fontFamily': {
         'headingTwo': ['Racing Sans One', 'cursive'],
-        'headingOne': ['Roboto', 'sans-serif']
+        'headingOne': ['Roboto', 'sans-serif'],
+        'ubuntu': ['Ubuntu', 'sans-serif']
       },
       'fontSize': {
         '18': '18pt',
