@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ActivitiesPage from "./pages/ActivitiesPage";
+import Detailpage from "./pages/Detailpage";
 import WelcomePage from "./pages/WelcomePage";
 
 
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<WelcomePage/>}/>
           <Route path="/aktiviter" element={<ActivitiesPage/>}/>
+          <Route path="/activity/:id" element={<Detailpage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
