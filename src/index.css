@@ -19,3 +19,11 @@
 body{
     background-color: #5E2E53;
 }
+
+.shape{
+    width: 900px;
+    height: 844px;
+    transform: skew(-60deg);
+    background: #5E2E53;
+    opacity: 0.4;
+}
