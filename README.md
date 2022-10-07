@@ -30,4 +30,4 @@ Jeg vil i min præsentation kommer nærmere ind på dette stykke kode.
             setToken(response.data)
             navigate('/aktiviter', 500)
         })
-    }```
+    }
