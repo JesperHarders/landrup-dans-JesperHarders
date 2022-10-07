@@ -16,7 +16,7 @@ const CalenderPage = () => {
     useEffect(() => {
         axios.get(`http://localhost:4000/api/v1/users/${token.userId}`, {
             'headers': {
-                'Authorization': 'Bearer' + ' ' + token.token
+                'Authorization': `Bearer ${token.token}`
             }
         }).then(response => {
             setActivityData(response.data.activities)
