@@ -8,7 +8,7 @@ const WelcomePage = () => {
             <div className='absolute top-[50vh]'>
                 <div className='ml-[15%]'>
                     <p className='font-headingOne text-36 font-bold leading-none textBorder'>LANDRUP</p>
-                    <p className='font-headingTwo text-[72pt] text-[#E856EB] leading-none textBorderThin'>DANS</p>
+                    <p className='font-headingTwo text-[72pt] text-[#E856EB] leading-none textBorderThin'>DANBBS</p>
                 </div>
                 <div className='h-[15px] w-[80vw] bg-[#913693]'></div>
             </div>
