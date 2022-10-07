@@ -11,7 +11,6 @@ const SearchPage = () => {
     const [searchData, setSearchData] = useState('')
     const [activityData, setActivityData] = useState()
     const [isLoaded, setIsLoaded] = useState(false)
-    const [noResults, setNoResults] = useState(true)
 
 
     useEffect(() => {
