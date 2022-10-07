@@ -21,3 +21,13 @@
 
 # Kode til særlig bedømmelse:
 Jeg vil i min præsentation kommer nærmere ind på dette stykke kode.
+```const getToken = () => {
+        axios.post('http://localhost:4000/auth/token', {
+            username: username,
+            password: password
+        }).then(response => {
+            setLoggedInState(true)
+            setToken(response.data)
+            navigate('/aktiviter', 500)
+        })
+    }```
