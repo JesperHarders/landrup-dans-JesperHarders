@@ -11,8 +11,8 @@ import * as yup from "yup";
 const LoginPage = ({setLoggedInState}) => {
 
     const schema = yup.object({
-        username: yup.string().required('Username is required').min(2, 'Username is too short').matches(/^[a-zA-Z0-9]*$/, 'Username must only contain letters'),
-        password: yup.string().min(3, 'Password must be more than 6 charectors long').max(12, 'Password must less than 12 charectors long')
+        username: yup.string().required('Brugernavn skal udfyldes').min(2, 'Brugernavnet er for kort').matches(/^[a-zA-Z0-9]*$/, 'Brugernavn må kun indeholde bogstaver og tal'),
+        password: yup.string().min(3, 'Adgangskoden er for kort').max(12, 'Adgangskoden er for lang')
     })
 
     const { register, handleSubmit, formState: { errors } } = useForm({
