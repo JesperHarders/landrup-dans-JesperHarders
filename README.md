@@ -17,7 +17,7 @@
 - Github
 
 ## Deploy process:
-- Netlify - Continuous Deployment [Link](jesper-svendeproeve.netlify.app)
+- Netlify - Continuous Deployment [Link](https://jesper-svendeproeve.netlify.app/)
 
 # Kode til særlig bedømmelse:
 Jeg vil i min præsentation kommer nærmere ind på dette stykke kode.
