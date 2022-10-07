@@ -17,7 +17,7 @@
 - Github
 
 ## Deploy process:
-- Netlify
+- Netlify - Continuous Deployment
 
 # Kode til særlig bedømmelse:
 Jeg vil i min præsentation kommer nærmere ind på dette stykke kode.
